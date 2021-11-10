@@ -13,8 +13,8 @@ except ImportError:
     # Try backported to PY<37 `importlib_resources`.
     import importlib_resources as pkg_resources
 
-from latticetoolbox.Lattice_Generator import Triangular
-from latticetoolbox.sublatticefinder import triangle_splitter
+from latticetoolbox.lattice_generator import Triangular
+from latticetoolbox.sublattice_finder import triangle_splitter
 from latticetoolbox.resources import latticedicts
 
 honeycomb_dict_bin = pkg_resources.read_binary(latticedicts, "latt_dict_honeycomb.pkl")

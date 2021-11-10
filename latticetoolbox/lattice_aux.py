@@ -1,7 +1,7 @@
 import numpy as np
 import networkx as nx
 
-from latticetoolbox.Lattice_Generator import Triangular
+from latticetoolbox.lattice_generator import Triangular
 from scipy.spatial.distance import cdist
 
 hex_a1 = np.array([np.sqrt(3.) / 2., 3. / 2.], dtype=float)

@@ -7,8 +7,8 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 import copy
 import pickle
 
-from latticetoolbox.Lattice_Generator import Triangular
-from latticetoolbox.sublatticefinder import triangle_splitter
+from latticetoolbox.lattice_generator import Triangular
+from latticetoolbox.sublattice_finder import triangle_splitter
 from latticetoolbox.resources import latticedicts
 
 try:
