@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lattice-toolbox
+Version: 0.1
+Summary: A Toolbox for Triangular and Hexagonal Lattices
+Home-page: UNKNOWN
+Author: tobias
+Author-email: kontakt@tobiasbusse.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.2
