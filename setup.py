@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='lattice_toolbox',
     python_requires='>3.5.2',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(include=['latticetoolbox', 'latticetoolbox.*']),
     package_data={'latticetoolbox':['latticetoolbox/resources/latticedicts/*.pkl']},
     url='',

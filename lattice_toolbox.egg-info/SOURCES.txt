@@ -5,9 +5,11 @@ lattice_toolbox.egg-info/SOURCES.txt
 lattice_toolbox.egg-info/dependency_links.txt
 lattice_toolbox.egg-info/requires.txt
 lattice_toolbox.egg-info/top_level.txt
-latticetoolbox/Lattice_Generator.py
 latticetoolbox/__init__.py
 latticetoolbox/lattice_aux.py
+latticetoolbox/lattice_generator.py
 latticetoolbox/lattice_sets.py
 latticetoolbox/plot_colored_lattices.py
-latticetoolbox/sublatticefinder.py
+latticetoolbox/sublattice_finder.py
+latticetoolbox/resources/__init__.py
+latticetoolbox/resources/latticedicts/__init__.py
