@@ -1,3 +1,4 @@
+MANIFEST.in
 README.md
 setup.py
 lattice_toolbox.egg-info/PKG-INFO
@@ -13,3 +14,5 @@ latticetoolbox/plot_colored_lattices.py
 latticetoolbox/sublattice_finder.py
 latticetoolbox/resources/__init__.py
 latticetoolbox/resources/latticedicts/__init__.py
+latticetoolbox/resources/latticedicts/latt_dict_honeycomb.pkl
+latticetoolbox/resources/latticedicts/latt_dict_triangular.pkl

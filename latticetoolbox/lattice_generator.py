@@ -13,6 +13,17 @@ from latticetoolbox.lattice_sets import n_latt_triangular_very_large
 #my_path = os.path.join(os.path.abspath(os.path.dirname(os.path.realpath(__file__))), '../../')
 
 # triangular lattices with eccentricity 1- 1.25
+lARGE_IDS = [1000010,
+             1100011,
+             1200012,
+             1300013,
+             1400014,
+             1500015,
+             1600016,
+             1700017,
+             1800018,
+             1900019,
+             2000020]
 
 s3 = np.array([[1, 0], [0, -1]], dtype=complex)
 
@@ -40,7 +51,7 @@ class Triangular:
 
         # Lattice ID as in LC
         # fill utlf matrix from lattice id
-        if id != 1400014:
+        if id not in lARGE_IDS:
             self.id = str(id)
             utlf_d = int(self.id[-2::])
             utlf_b = int(self.id[-4::][:2])
@@ -48,10 +59,10 @@ class Triangular:
             # UTLF Matrix, Simulation Torus as in LC
             self.utlf = np.zeros(shape=(2, 2), dtype=float)
         else:
-            self.id = str(1400014)
-            utlf_d = 14.
+            self.id = str(id)
+            utlf_d = int(self.id[-2::])
             utlf_b = 0.
-            utlf_a = 14.
+            utlf_a = int(self.id[:2])
 
         assert utlf_b < utlf_d  # see lattice catalogue pdf
         self.utlf = np.array([[utlf_a, utlf_b], [0, utlf_d]], dtype=float)
@@ -2541,5 +2552,5 @@ def add_to_lattice_dict(n_latt, which="Honeycomb"):
 
 if __name__ == '__main__':
     create_lattice_dict(n_latt_triangular_very_large, which='triangular')
-    x = Triangular(9, 30003)
-    print(x.diagonal_strings_ul)
+    #x = Triangular(9, 30003)
+    #print(x.diagonal_strings_ul)

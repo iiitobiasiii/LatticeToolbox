@@ -6,6 +6,7 @@ setup(
     version='0.1.1',
     packages=find_packages(include=['latticetoolbox', 'latticetoolbox.*']),
     package_data={'latticetoolbox':['latticetoolbox/resources/latticedicts/*.pkl']},
+    include_package_data=True,
     url='',
     license='MIT',
     author='tobias',
