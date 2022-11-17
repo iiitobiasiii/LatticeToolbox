@@ -1,5 +1,5 @@
 A Lattice Toolbox
-with Lattice Generator, Plot Functions, etc. for triangular, honeycomb and Kagome lattices
+with Lattice Generator, Plot Functions, etc. for triangular, honeycomb and Kagome lattices and some related functionality useful for quantum many-body physics
 
 The toolbox consists of the following files:
 
