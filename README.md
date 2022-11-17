@@ -1,7 +1,9 @@
 A Lattice Toolbox
 with Lattice Generator, Plot Functions, etc. for triangular, honeycomb and Kagome lattices
 
-The toolbox consists of the following files
+The toolbox consists of the following files:
+
+
 lattice_aux.py:
   - lattice vectors for triangular and hexagonal lattice
   - calculate the euclidean distance for triangular lattices on a torus
