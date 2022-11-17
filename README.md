@@ -1,2 +1,16 @@
 A Lattice Toolbox
-with Lattice Generator, Plot Functions, etc. for triangular and honeycomb lattices
+with Lattice Generator, Plot Functions, etc. for triangular, honeycomb and Kagome lattices
+
+The toolbox consists of the following files
+lattice_aux.py:
+  - lattice vectors for triangular and hexagonal lattice
+  - calculate the euclidean distance for triangular lattices on a torus
+  
+  lattice_generator.py:
+    - Generate a dictionary for lattices for honeycomb and triangular lattice based on the utlf matrix of the lattice. Some simulation tori are hardcoded for the utlf matrices, others are read from the matrix components. 
+    - Stores the neighbor indices for each lattice points, offers functionality to find specific neighbors of lattice sites
+    - calculate adjacency matrices and simple cycles
+    - plot the lattice with highlighted nodes and faces or plot multiple instances of the lattices next to each other to see the effect of periodic boundary conditions
+    - calculate 3D coordinates for projection of the 2D lattice on a torus
+    - plot the lattice on a torus (experimental)
+    
