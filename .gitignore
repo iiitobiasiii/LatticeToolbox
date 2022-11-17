@@ -1,2 +1,5 @@
 /latticetoolbox/resources/Lattices/
 /latticetoolbox/resources/Lattices/Honeycomb/
+dist/*
+build/*
+*.egg-info/*
